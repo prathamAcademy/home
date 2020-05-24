@@ -794,6 +794,21 @@
 
       </div>
     </div>
+    
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"  id="onload">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+            <a href="http://prathamacademy.in/"><img src="img/team/onLoad.gif" class="img-responsive" alt="Pratham-SAT"></a>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+    
+        </div>
+    </div>
 
     <div class="copyrights">
       <div class="container">
@@ -831,6 +846,10 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script >
+  $(window).load(function(){
+    $('#onload').modal('show');
+})</script>
 
 </body>
 </html>
